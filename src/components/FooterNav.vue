@@ -1,11 +1,9 @@
 <template>
-  <footer class="footer">
+  <footer class="footer" v-bind:class="{ lander: !pathCheck }">
     <div class="container">
       <div class="content has-text-centered">
         <p>
-          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          <strong>Site hacked togther by: </strong><a href="https://roguecs.com">R0Gu3Cs</a> ©2018
         </p>
       </div>
     </div>
@@ -14,10 +12,22 @@
 
 <script>
 export default {
-  name: "FooterNav"
+  name: "FooterNav",
+  props: {
+    pathCheck: false
+  }
 }
 </script>
 
-<style>
+<style scoped lang="less">
+  .footer {
+    height: 60px;
+    padding: 1em;
+    position: sticky;
 
+    &.lander {
+      background-color: transparent;
+      margin-top: -60px;
+    }
+  }
 </style>

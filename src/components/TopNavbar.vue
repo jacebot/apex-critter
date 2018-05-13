@@ -1,8 +1,8 @@
 <template>
-    <nav class="navbar is-fixed-top is-transparent">
+    <nav class="navbar is-fixed-top is-warning">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+        <a class="navbar-item" href="/">
+          <img src="../assets/ac-logo-web.png" alt="Apex Critter small logo">
         </a>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
@@ -15,39 +15,10 @@
         <div class="navbar-start">
 
           <router-link to="/home" class="navbar-item">Home</router-link>
-
-
+          <router-link to="/media" class="navbar-item">Media</router-link>
+          <router-link to="/vault" class="navbar-item">Vault</router-link>
           <router-link to="/about" class="navbar-item">About</router-link>
 
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/documentation/overview/start/">
-              Docs
-            </a>
-            <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" href="/documentation/overview/start/">
-                Overview
-              </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-                Modifiers
-              </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                Columns
-              </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-                Layout
-              </a>
-              <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-                Form
-              </a>
-              <hr class="navbar-divider">
-              <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-                Elements
-              </a>
-              <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-                Components
-              </a>
-            </div>
-          </div>
         </div>
 
         <div class="navbar-end">

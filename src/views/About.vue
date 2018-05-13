@@ -1,5 +1,7 @@
 <template>
   <div class="about">
+    <Hero></Hero>
+
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-8">
         <div class="tile">
@@ -47,3 +49,14 @@
     </div>
   </div>
 </template>
+
+<script>
+import Hero from "@/components/Hero.vue";
+
+export default {
+  name: "about",
+  components: {
+    Hero
+  }
+}
+</script>

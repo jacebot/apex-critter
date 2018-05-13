@@ -1,5 +1,8 @@
 <template>
-  
+  <div class="404">
+    Noop!
+    
+  </div>
 </template>
 
 <script>

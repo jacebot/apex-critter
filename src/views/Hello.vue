@@ -1,5 +1,5 @@
 <template>
-  <div class="base">
+  <div class="hello">
     <HelloFuckingUglyWorld msg="THiS iS NnoT iT"></HelloFuckingUglyWorld>
   </div>
 </template>
@@ -8,7 +8,7 @@
 import HelloFuckingUglyWorld from "@/components/HelloFuckingUglyWorld.vue";
 
 export default {
-  name: "base",
+  name: "hello",
    components: {
     HelloFuckingUglyWorld
   }
