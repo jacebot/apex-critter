@@ -641,7 +641,7 @@ export default {
         let ndc = mat.mul(point);
         
         // uncomment this next line to have it rotate around a diagonal axis
-        // ndc = proj.mul(trans.mul(rotatePointAroundAxis(point, 2.5, 1)));
+        ndc = proj.mul(trans.mul(rotatePointAroundAxis(point, 2.5, 1)));
         
         ndc.wDivide();
         let x = w * ndc.cols[0][0] + (.5 * w);
