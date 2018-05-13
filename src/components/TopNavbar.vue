@@ -25,9 +25,9 @@
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">
-                <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
+                <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://apexcritter.com" target="_blank" href="https://twitter.com/intent/tweet?text=Apex Critter Website&amp;hashtags=apex_critter&amp;url=http://apexcritter.com">
                   <span class="icon">
-                    <i class="fab fa-twitter"></i>
+                    <i class="ion-iconic ion-logo-twitter"></i>
                   </span>
                   <span>
                     Tweet
@@ -35,11 +35,11 @@
                 </a>
               </p>
               <p class="control">
-                <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
+                <a class="button is-primary" target="_blank" href="https://bandcamp.com">
                   <span class="icon">
-                    <i class="fas fa-download"></i>
+                    <img src="../assets/bandcamp-button-circle-black-64.png"/>
                   </span>
-                  <span>Download</span>
+                  <span>Shop</span>
                 </a>
               </p>
             </div>

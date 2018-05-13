@@ -4,6 +4,7 @@ import router from './router';
 
 import Buefy from 'buefy';
 import 'buefy/lib/buefy.css';
+import 'ionicons/dist/css/ionicons.min.css';
 
 Vue.use(Buefy);
 
