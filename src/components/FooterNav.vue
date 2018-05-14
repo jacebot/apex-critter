@@ -29,5 +29,9 @@ export default {
       background-color: transparent;
       margin-top: -60px;
     }
+
+    a {
+      text-shadow: 2px 0px 3px #d3d3d3;
+    }
   }
 </style>

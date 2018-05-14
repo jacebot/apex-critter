@@ -224,7 +224,7 @@ export default {
     runVisualizerBackground() {
       //Note: bins needs to be a power of 2
       let displayBins = 512;
-      let backgroundColour = "#2C2E3B";
+      let backgroundColour = "#000000";
       let barColour = "#EC1A55";
       let songFont = "15px 'Open Sans'";
       //Where the bottom of the waveform is rendered at (out of 255). I recommend
@@ -618,6 +618,8 @@ export default {
         let mat = proj.mul(trans.mul(rotX.mul(rotY)));
         
         ctx.clearRect(0, 0, w, h);
+        ctx.fillStyle = "rgb(0, 0, 0)";
+        ctx.fillRect(0, 0, w, h);
         ctx.beginPath();
         let initialPoint = getTransformedCoords(mat, orderedPoints[0]);
         ctx.moveTo(initialPoint.x, initialPoint.y);
