@@ -11,6 +11,11 @@
             {{subTitle}}
           </h2>
         </div>
+         <a class="button is-large" v-if="showPlayButton" v-on:click="togglePlayPause">
+          <span class="icon is-medium">
+            <i class="ion-iconic ion-ios-play"></i>
+          </span>
+        </a>
       </div>
     </section>
 </template>
@@ -21,7 +26,8 @@ export default {
   data() {
     return{
       trackName: 'Test Loop',
-      track: require("../assets/chune-loop.mp3")
+      track: require("../assets/chune-loop.mp3"),
+      showPlayButton: false,
     }
   },
   props: {
@@ -34,6 +40,15 @@ export default {
     }
   },
   methods: {
+    togglePlayPause() {
+      const player = document.getElementsByTagName('audio');
+       console.log(player);
+      if (!player[0].paused && player[0].currentTime > 0 && !player[0].ended) {
+        player[0].pause();
+      } else {
+        player[0].play();
+      }
+    },
     runHexBackground() {
       let 
         ele = document.getElementsByClassName('hero'),
@@ -659,6 +674,8 @@ export default {
       this.runHexBackground();
     } else if (this.pathName === '/media') {
       this.runVisualizerBackground();
+      // Show the play / pause button
+      this.showPlayButton = true;
     } else if (this.pathName === '/vault') {
       this.runCubeBackground();
     } else if (this.pathName === '/about') {
@@ -666,11 +683,19 @@ export default {
     } else {
       return;
     }
+  },
+  destroyed() {
+    this.showPlayButton = false;
   }
 }
 </script>
 
-<style>
+<style lang="less">
+
+.hero .button {
+  position: absolute;
+}
+
 canvas {
   position: absolute;
   top: 0;

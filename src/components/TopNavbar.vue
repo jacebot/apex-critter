@@ -29,9 +29,7 @@
                   <span class="icon">
                     <i class="ion-iconic ion-logo-twitter"></i>
                   </span>
-                  <span>
-                    Tweet
-                  </span>
+                  <span>Tweet</span>
                 </a>
               </p>
               <p class="control">
