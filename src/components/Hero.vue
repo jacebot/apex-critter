@@ -692,6 +692,10 @@ export default {
 
 <style lang="less">
 
+h1.title {
+  font-size: 3em !important;
+}
+
 .hero .button {
   position: absolute;
 }
