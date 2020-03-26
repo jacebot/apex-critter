@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <HelloFuckingUglyWorld msg="THiS iS NnoT iT"></HelloFuckingUglyWorld>
+    <HelloFuckingUglyWorld msg="This is not it..."></HelloFuckingUglyWorld>
   </div>
 </template>
 
@@ -14,7 +14,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>
