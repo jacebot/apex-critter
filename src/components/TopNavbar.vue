@@ -27,7 +27,7 @@
               <p class="control">
                 <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://apexcritter.com" target="_blank" href="https://twitter.com/intent/tweet?text=Apex Critter Website&amp;hashtags=apex_critter&amp;url=http://apexcritter.com">
                   <span class="icon">
-                    <i class="ion-iconic ion-logo-twitter"></i>
+                    <LogoTwitterIcon />
                   </span>
                   <span>Tweet</span>
                 </a>
@@ -35,7 +35,7 @@
               <p class="control">
                 <a class="button is-primary" target="_blank" href="https://bandcamp.com">
                   <span class="icon">
-                    <img src="../assets/bandcamp-button-circle-black-64.png"/>
+                    <img src="../assets/bandcamp-logo.png"/>
                   </span>
                   <span>Shop</span>
                 </a>
@@ -48,8 +48,12 @@
 </template>
 
 <script>
+import LogoTwitterIcon from 'vue-ionicons/dist/logo-twitter.vue';
 export default {
-  name: "TopNavbar"
+  name: "TopNavbar",
+    components: {
+    LogoTwitterIcon
+  },
 }
 </script>
 
