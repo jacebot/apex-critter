@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import Hero from "@/components/Hero.vue";
+import Hero from "@/components/Hero/Hero.vue";
 
 export default {
   name: "media",
