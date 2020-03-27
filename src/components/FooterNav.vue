@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer" v-bind:class="{ lander: !pathCheck }">
+  <footer class="footer is-fixed-bottom" v-bind:class="{ lander: !pathCheck }">
     <div class="container">
       <div class="content has-text-centered">
         <p>
