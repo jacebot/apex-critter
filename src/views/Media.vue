@@ -7,15 +7,16 @@
         <div class="tile">
           <div class="tile is-parent is-vertical">
             <article class="tile is-child notification is-primary">
-              <p class="title">I produce music...</p>
-              <p class="subtitle">and sometimes it sounds great.</p>
-              <small>*An older track... but still checks out.</small>
-              <iframe width="100%"
-                      height="166"
-                      scrolling="no"
-                      frameborder="no"
-                      allow="autoplay"
-                      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269266531&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+              <p class="title">My torrid past with music...</p>
+              <p class="subtitle">and then some.</p>
+              <p>Starting in the 1990's this article sums up a lot of the Bay Area life
+                for a young raver, budding artist and DJ.
+              </p>
+              <p>
+                <a href="https://djtechtools.com/2013/12/19/history-of-the-rave-scene-how-djs-built-modern-dance-music/"
+                   target='_blank'>
+                  `Dj Tech Tools - History Of The Right To Rave</a>
+              </p>
             </article>
           </div>
         </div>
