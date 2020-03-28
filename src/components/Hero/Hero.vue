@@ -88,6 +88,13 @@ export default {
 </script>
 
 <style lang="less">
+@media screen and (min-width: 320px), print {
+.hero.is-large .hero-body {
+    padding-bottom: 9rem;
+    padding-top: 9rem;
+}
+}
+
 h1.title {
   font-size: 3em !important;
 }
