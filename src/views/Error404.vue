@@ -18,6 +18,7 @@
           <p>It's a sad thing that</p>
           <p>your adventures have</p>
           <p>ended here!!</p>
+          <p>&nbsp;</p>
         </div>
         <div class="column is-2" />
       </div>
@@ -84,5 +85,7 @@ box-shadow: 0px 0px 3px 24px rgba(232,207,156,0.77); */
   text-align: left;
   border-top: 1px dashed #000;
   border-bottom: 1px dashed #000;
+  line-height: 66px;
+  height: 62px;
 }
 </style>
