@@ -20,6 +20,7 @@
                           frameborder="no"
                           allow="autoplay"
                           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269266531&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                <a href="/media"><p class="subtitle mt-3">Click here to download more music.</p></a>
                 </article>
                 <article class="tile is-child notification is-danger">
                   <p class="title">Links...</p>
@@ -78,9 +79,6 @@ export default {
 </script>
 
 <style lang="less">
-.rounded {
-  border-radius: 3px !important;
-}
 
 .main-content {
   margin: 0px !important;
