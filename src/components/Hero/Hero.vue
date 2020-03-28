@@ -14,8 +14,8 @@
         </h2>
       </div>
       <div class="button is-light is-outlined p-4"
-            v-on:click="togglePlayPause"
-            v-show="showPlayButton">
+           v-on:click="togglePlayPause"
+           v-show="showPlayButton">
         <PlayIcon />
         <span>Click me to play some noise.</span>
       </div>
@@ -58,7 +58,7 @@ export default {
         runVisualizerBackground();
         player[0].play();
       }
-    },
+    }
   },
   mounted() {
     let path = this.pathName;
@@ -89,10 +89,10 @@ export default {
 
 <style lang="less">
 @media screen and (min-width: 320px), print {
-.hero.is-large .hero-body {
+  .hero.is-large .hero-body {
     padding-bottom: 9rem;
     padding-top: 9rem;
-}
+  }
 }
 
 h1.title {

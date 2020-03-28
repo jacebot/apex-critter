@@ -27,21 +27,21 @@
                   <p class="subtitle">to places on the internet I can be found.</p>
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="#" target="_blank">
                         <h3 style="font-size: 1.5rem; margin-bottom: 15px;">Bandcamp</h3>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.internet-radio.com/search/?radio=richidance">Richidancefm (Hazy Vegas - Every Satuday @ 2pm PST)</a>
+                      <a href="https://www.internet-radio.com/search/?radio=richidance" target="_blank">Richidancefm (Hazy Vegas - Every Satuday @ 2pm PST)</a>
                     </li>
                     <li>
-                      <a href="https://soundcloud.com/vylent-hands">Soundcloud</a>
+                      <a href="https://soundcloud.com/vylent-hands" target="_blank">Soundcloud</a>
                     </li>
                     <li>
-                      <a href="#">Mixcloud</a>
+                      <a href="https://www.mixcloud.com/Hawthorne_Music/" target="_blank">Mixcloud</a>
                     </li>
                     <li>
-                      <a href="#">YouTube (Coming Soon!)</a>
+                      YouTube (Coming Soon!)
                     </li>
                   </ul>
                 </article>
