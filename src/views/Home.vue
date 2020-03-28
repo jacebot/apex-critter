@@ -1,7 +1,7 @@
 <template>
   <div class="home">
 
-    <Hero title='Apex Critter'
+    <Hero title='∆PEX ÇRITTER'
           subTitle="Artist  ||  Dj  ||  Producer"></Hero>
 
     <div class="columns">
