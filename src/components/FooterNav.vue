@@ -3,7 +3,7 @@
     <div class="container">
       <div class="content has-text-centered">
         <p>
-          <strong>Site hacked togther by: </strong><a href="https://roguecs.com">R0Gu3Cs</a> ©2018
+          <strong>Site hacked togther by: </strong><a href="https://roguecs.com">R0Gu3Cs</a> ©2018 - {{new Date().getFullYear() }}
         </p>
       </div>
     </div>
