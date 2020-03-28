@@ -20,7 +20,7 @@
                           frameborder="no"
                           allow="autoplay"
                           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269266531&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                <a href="/media"><p class="subtitle mt-3">Click here to download more music.</p></a>
+                <router-link to="/vault"><p class="subtitle mt-3">Click here to download more music.</p></router-link>
                 </article>
                 <article class="tile is-child notification is-danger">
                   <p class="title">Links...</p>
@@ -50,12 +50,12 @@
                 <article class="tile is-child notification is-info">
                   <p class="title">Dj'ing...</p>
                   <p class="subtitle">for a long time.</p>
-                  <a href="/media">
+                  <router-link to="/media">
                     <figure class="image is-4by3 rounded">
                       <img class='rounded'
                            src="../assets/dj-back.jpg">
                     </figure>
-                  </a>
+                  </router-link>
                 </article>
               </div>
             </div>
