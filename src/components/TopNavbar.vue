@@ -24,8 +24,6 @@
                      class="navbar-item">Media</router-link>
         <router-link to="/vault"
                      class="navbar-item">Vault</router-link>
-        <router-link to="/about"
-                     class="navbar-item">About</router-link>
 
       </div>
 
@@ -48,7 +46,7 @@
             <p class="control">
               <a class="button is-primary"
                  target="_blank"
-                 href="https://bandcamp.com">
+                 href="https://apexcritter.bandcamp.com">
                 <span class="icon">
                   <img src="../assets/bandcamp-logo.png" />
                 </span>
